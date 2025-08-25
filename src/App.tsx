@@ -1,5 +1,6 @@
 
 import './App.css'
+import Actualites from './components/Actualites'
 import Hero from './components/Hero'
 import MainInfo from './components/MainInfo'
 import NavigationDesktop from './components/NavigationDesktop'
@@ -16,6 +17,7 @@ function App() {
       <main>
         <Hero/>
         <MainInfo/>
+        <Actualites/>
       </main>
       <footer>
 
