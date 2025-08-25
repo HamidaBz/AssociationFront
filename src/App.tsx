@@ -1,6 +1,7 @@
 
 import './App.css'
 import Hero from './components/Hero'
+import MainInfo from './components/MainInfo'
 import NavigationDesktop from './components/NavigationDesktop'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
@@ -14,6 +15,7 @@ function App() {
       </header>
       <main>
         <Hero/>
+        <MainInfo/>
       </main>
       <footer>
 

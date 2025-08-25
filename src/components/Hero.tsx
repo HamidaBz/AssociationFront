@@ -14,7 +14,7 @@ function Hero() {
       <div className="hero-overlay shadow d-flex align-items-center justify-content-center">
         <div className="overlay-content col-5">
             <a className="btn btn-primary btn-lg">Découvrir</a>
-            <a className="btn btn-outline-light btn-lg">Faire un don</a>
+            <a className="btn btn-light btn-lg">Faire un don</a>
         </div>
       </div>
 
