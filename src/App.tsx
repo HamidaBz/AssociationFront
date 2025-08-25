@@ -1,5 +1,6 @@
 
 import './App.css'
+import Hero from './components/Hero'
 import NavigationDesktop from './components/NavigationDesktop'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
@@ -12,7 +13,7 @@ function App() {
         <NavigationDesktop/>
       </header>
       <main>
-        
+        <Hero/>
       </main>
       <footer>
 
