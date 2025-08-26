@@ -1,16 +1,16 @@
 import '../style/navigation-desktop.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavigationDesktopMenuTop from './navigationDesktopMenuTop';
+import NavigationDesktopMenuTop from './NavigationDesktopMenuTop';
 import NavigationDesktopMenuBottom from './NavigationDesktopMenuBottom';
 
 
 function NavigationDesktop() {
   return (
-    <div className="navigation-desktop">
+    <header  id="header-navigation-desktop" className="navigation-desktop">
       <NavigationDesktopMenuTop/>
       <NavigationDesktopMenuBottom/>
 
-    </div>
+    </header>
   );
 }
 export default NavigationDesktop;

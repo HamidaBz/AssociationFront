@@ -1,33 +1,28 @@
+import "./App.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MainLayout from "./components/MainLayout";
+import Home from "./components/Home";
+import Actualites from "./components/Actualites";
 
-import './App.css'
-import Actualites from './components/Actualites'
-import Hero from './components/Hero'
-import MainInfo from './components/MainInfo'
-import NavigationDesktop from './components/NavigationDesktop'
-import 'bootstrap-icons/font/bootstrap-icons.css'
-import Story from './components/Story'
-import Footer from './components/Footer'
-
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
+    children: [
+      {
+        index: true,        // default route ("/")
+        element: <Home />,
+      },
+      {
+        path: "about",      // "/about"
+        element: <Actualites />,
+      },
+    ],
+  },
+]);
 function App() {
-
-  
-  return (
-    <>
-      <header id="header-navigation-desktop">
-        <NavigationDesktop/>
-      </header>
-      <main>
-        <Hero/>
-        <MainInfo/>
-        <Actualites/>
-        <Story/>
-      </main>
-      <footer>
-          <Footer/>
-      </footer>
-
-    </>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
