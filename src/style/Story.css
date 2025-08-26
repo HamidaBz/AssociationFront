@@ -1,12 +1,16 @@
-.actualites{
+.stories-head{
+
+}
+.stories{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
     width: auto;
     max-width: calc(100%-2rem);
 }
+
 @media(min-width: 700px){
-   .actualites{
+   .stories{
     margin-left: 8rem;
     margin-right: 8rem;
     max-width: calc(100%-16rem);
@@ -14,29 +18,25 @@
 
 }
 
-.actualites-head{
-
-}
-
-.actualites-ligne{
+.story-line{
+    position: relative;
     display: flex;
     justify-content: space-around;
     gap: 1rem;
     width: 100%;
     height: 40vh;
     background-color: gainsboro;
-    
 }
 
 
 
-.actualite{
+.story{
     flex: 1;
     height: inherit;
-    background-color: greenyellow;
+    background-color: beige;
     position: relative;
 }
-.actualite-plus{
+.story-plus{
     position: absolute;
     height: 50px;
     background-color: white;

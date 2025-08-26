@@ -1,0 +1,14 @@
+.footer{
+    height: 40vh;
+    background-color: cadetblue;
+}
+
+.btn-haut-page{
+    position: fixed;
+    z-index: 999;
+    bottom:20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}
