@@ -96,7 +96,7 @@ function NavigationDesktopMenuBottom() {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success" type="submit">
+            <button className="btn btn--plain btn--outlined" type="submit">
               Search
             </button>
           </form>
@@ -113,7 +113,7 @@ function NavigationDesktopMenuBottom() {
               </ul>
             </li>
             <li className="nav-item ">
-                <a className="btn btn-primary ">Je fais un don</a>
+                <a className="btn btn--plain btn--color-primary btn-lg">Je fais un don</a>
             </li>
           </ul>
         </div>

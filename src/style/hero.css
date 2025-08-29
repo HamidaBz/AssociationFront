@@ -5,7 +5,7 @@
 }
 .hero-header{
    
-    background: url('../resources/images/hero.jpg') no-repeat center center;
+    background: rgb(165, 187, 211);/* background: url('../resources/images/hero.jpg') no-repeat center center; */
     background-size: cover;
     color: aliceblue;
     height: 55vh;

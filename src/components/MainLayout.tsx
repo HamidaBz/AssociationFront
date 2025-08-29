@@ -2,16 +2,15 @@ import { Outlet } from "react-router-dom";
 import NavigationDesktop from "./NavigationDesktop";
 import Footer from "./Footer";
 
-function MainLayout(){
-    return(
+function MainLayout() {
+  return (
     <>
-        <NavigationDesktop/>
+      <NavigationDesktop />
       <main>
-        <Outlet/>
+        <Outlet />
       </main>
-    <Footer/>
-
+      <Footer />
     </>
-    );
+  );
 }
 export default MainLayout;

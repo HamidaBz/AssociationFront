@@ -1,5 +1,6 @@
-import "./App.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "./App.css";
+import "./style/root.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./components/MainLayout";
 import Home from "./components/Home";

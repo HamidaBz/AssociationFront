@@ -7,6 +7,8 @@
     margin-top: 1rem;
     width: auto;
     max-width: calc(100%-2rem);
+        margin-top: var(--margin-before-main-section);
+
 }
 
 @media(min-width: 700px){
@@ -26,6 +28,7 @@
     width: 100%;
     height: 40vh;
     background-color: gainsboro;
+    
 }
 
 

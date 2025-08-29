@@ -1,7 +1,7 @@
 .actualites{
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: 1rem;
+    margin-top: var(--margin-before-main-section);
     width: auto;
     max-width: calc(100%-2rem);
 }
